@@ -1,0 +1,3 @@
+(module jedi.test.Horizontal-View jazz
+  (import (jazz.view))
+  (class Horizontal-View extends View))

@@ -1,0 +1,8 @@
+(module jazz.graphic.font.platform.cgfont jazz
+  (import (jazz.cairo))
+  (import (jazz.platform))
+  (definition public (create-cgfont-font local? (font-name: font-name (unspecified)) (point-size: point-size (unspecified)) (bold?: bold? (unspecified)) (italic?: italic? (unspecified)) (underline?: underline? (unspecified))))
+  (definition public (destroy-cgfont-font local? handle))
+  (definition public (create-cairo-cgfont-font-face local? handle))
+  (definition public (destroy-cairo-cgfont-font-face handle))
+  (definition public (get-cgfont handle)))

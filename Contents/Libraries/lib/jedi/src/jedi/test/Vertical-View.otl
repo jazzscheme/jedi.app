@@ -1,0 +1,3 @@
+(module jedi.test.Vertical-View jazz
+  (import (jazz.view))
+  (class Vertical-View extends View))

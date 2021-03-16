@@ -1,0 +1,2 @@
+(module jedi.smoker.Smoker-Suite jazz
+  (class Smoker-Suite extends Object))

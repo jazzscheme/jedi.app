@@ -1,0 +1,10 @@
+(module jazz.graphic.font.platform.CGFont-Font jazz
+  (import (jazz.graphic))
+  (import (jazz.graphic.font))
+  (import (jazz.platform))
+  (class CGFont-Font extends Concrete-Font
+    (method override (create-font self . rest))
+    (method override (destroy-font self . rest))
+    (method override (create-cairo-font-face self . rest))
+    (method override (destroy-cairo-font-face self . rest))
+    (method override (cairo-glyph-index self font char))))

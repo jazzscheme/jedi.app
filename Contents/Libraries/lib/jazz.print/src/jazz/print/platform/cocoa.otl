@@ -1,0 +1,2 @@
+(module jazz.print.platform.cocoa jazz
+  (definition package (platform-print-document view)))

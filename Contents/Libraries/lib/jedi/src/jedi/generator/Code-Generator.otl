@@ -1,0 +1,2 @@
+(module jedi.generator.Code-Generator jazz
+  (class Code-Generator extends Object))

@@ -1,0 +1,9 @@
+(module jazz.clipboard.platform.cocoa jazz
+  (import (jazz.platform))
+  (definition package (initialize-clipboard))
+  (definition public (get-clipboard-text (format: format (unspecified))))
+  (definition public (set-clipboard-text text (format: format (unspecified))))
+  (definition public undocumented (register-clipboard-format name format))
+  (definition public undocumented (clipboard-format-available? format))
+  (definition package (mouse-select-copy proc))
+  (definition package (middle-mouse-paste proc)))

@@ -1,0 +1,3 @@
+(module jedi.text.Completion-Popup jazz
+  (import (jazz.window))
+  (class Completion-Popup extends Popup))
