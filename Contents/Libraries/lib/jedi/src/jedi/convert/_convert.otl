@@ -5,4 +5,5 @@
   (import (jazz.io))
   (import (jazz.markup))
   (import (jazz.match))
-  (import (jazz.reference)))
+  (import (jazz.reference))
+  (definition protected (convert-settings-initial dot-jedi-dir)))
