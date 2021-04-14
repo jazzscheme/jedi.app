@@ -16,6 +16,8 @@
   (definition package (set-message-thread thread))
   (definition public (message-period-get))
   (definition public (message-period-set! period))
+  (definition public (message-period-inactive-get))
+  (definition public (message-period-inactive-set! period))
   (definition public (message-sleep-get))
   (definition public (message-sleep-set! sleep))
   (class Monitor extends Object

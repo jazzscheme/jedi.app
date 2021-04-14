@@ -1,5 +1,6 @@
 (module jazz.platform.library.cocoa jazz
   (import (jazz.io))
+  (import (jazz.platform))
   (definition public (relocate-name file old-prefix new-prefix (feedback?: feedback? (unspecified))))
   (definition protected (change-name file name old-prefix new-prefix))
   (definition public (relocate-dependencies file old-prefix new-prefix (feedback?: feedback? (unspecified))))
@@ -8,5 +9,6 @@
   (definition protected (executable-rpath dir file))
   (definition public (relocate-subfile dir file kind old-prefix new-prefix (feedback?: feedback? (unspecified))))
   (definition public (library-name/dependencies file))
+  (definition public (library-load-commands file))
   (definition public (library-dependencies-tree rpath-dir file))
   (definition public (present-dependencies-tree lst)))

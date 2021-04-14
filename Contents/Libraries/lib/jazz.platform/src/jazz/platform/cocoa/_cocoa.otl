@@ -25,5 +25,4 @@
   (definition public (get-computer-name))
   (definition public (get-system-user-name))
   (definition public (collect-process-threads))
-  (definition public (version-info))
   (definition public (get-platform-version)))

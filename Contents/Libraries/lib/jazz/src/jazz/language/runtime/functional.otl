@@ -220,6 +220,7 @@
   (definition public Alphabetic-Chars)
   (definition public Numeric-Chars)
   (definition public (diacritic-equivalent c))
+  (definition public (unicode->ascii str))
   (class Char-Class extends Class)
   (class Char metaclass Char-Class extends Object
     (method override (initialize self . rest))
@@ -249,6 +250,8 @@
   (definition public (capitalize object <Object>))
   (definition public (upcase-capitalized str))
   (definition public (vowel? c))
+  (definition public (ascii? c))
+  (definition public (control-character? c))
   (definition public (character-type ascii-c <char>) <symbol>)
   (definition public (invalid-character? c <char>) <bool>)
   (definition public (word-constituent? c <char>) <bool>)
