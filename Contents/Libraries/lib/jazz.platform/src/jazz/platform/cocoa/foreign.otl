@@ -161,6 +161,7 @@
   (definition public platformSystemSound)
   (definition public platformPlaySound)
   (definition public platformUserAttention)
+  (definition public platformUpdateSystemActivity)
   (definition public platformFillOperatingSystemVersion)
   (definition public platformRunningApplications)
   (definition public platformRunningApplicationProcessIdentifier)

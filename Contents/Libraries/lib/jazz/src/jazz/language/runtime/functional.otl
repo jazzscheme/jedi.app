@@ -693,6 +693,7 @@
   (definition public (split-list lst))
   (definition public (last-cdr lst))
   (definition public (butlast-cdr lst))
+  (definition public (add-ordered! obj lst (key: key (unspecified))))
   (definition public (move-to-head! target lst))
   (definition public (move-to-tail! target lst))
   (definition public (augment . rest))

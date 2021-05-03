@@ -19,7 +19,7 @@
   (import (jazz.window))
   (import (jazz.workspace))
   (definition public (test-gstreamer))
-  (definition public (test-mic))
+  (definition public (test-microphone))
   (definition protected (media-path name))
   (definition protected (report-info pipeline name))
   (definition protected (wait-audioclock pipeline sink-name))

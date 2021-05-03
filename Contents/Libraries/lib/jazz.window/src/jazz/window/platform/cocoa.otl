@@ -99,7 +99,7 @@
   (definition package (platform-bring-window-to-front handle))
   (definition package (platform-send-window-to-back handle))
   (definition package (platform-select-foreground-window handle))
-  (definition package (platform-flash-window handle))
+  (definition package (platform-user-attention handle))
   (definition package (platform-get-focus))
   (definition package (platform-set-focus handle))
   (definition package (platform-mouse-copy-down? evt))

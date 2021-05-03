@@ -15,6 +15,7 @@
     (property choices-updater accessors explicit)
     (property entry-test accessors generate)
     (slot selected)
+    (method override (destroy self))
     (method override (button-action self))
     (method protected (combo-popup-positions self view))
     (method package virtual (on-action self evt))
